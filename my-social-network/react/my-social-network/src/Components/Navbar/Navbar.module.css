@@ -1,0 +1,32 @@
+.navbar {
+    grid-area: n;
+}
+.menu {
+    padding: 35px 0;
+}
+
+.list {
+    width: 150px;
+    display: block;
+}
+
+.link {
+    display: block;
+    margin-bottom: 10px;
+    width: 150px;
+    color: #3b5995;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.link:hover {
+    font-weight: 700;
+}
+
+.link_active {
+    font-weight: 700;
+    background-color: #385592;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#dadfe8));
+    background-image: -o-linear-gradient(left, #ffffff 0%, #dadfe8 100%);
+    background-image: linear-gradient(to right, #ffffff 0%, #dadfe8 100%);
+}

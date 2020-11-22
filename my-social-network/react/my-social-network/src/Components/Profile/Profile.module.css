@@ -1,0 +1,28 @@
+.profile__background {
+    padding: 35px 0;
+}
+.profile__background img {
+    width: 100%;
+}
+.profile__content {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.profile__avatar {
+    border-radius: 50%;
+}
+.profile__info {
+    padding-left: 20px;
+}
+.profile__name {
+    color: #344e86;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}

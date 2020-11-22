@@ -1,0 +1,13 @@
+.header {
+    padding: 15px 15px;
+    background-color: #4366a7;
+    -webkit-box-shadow: -2px -4px 13px 1px rgba(50, 48, 47, 0.76), inset 0 1px 1px rgba(255, 255, 255, 0.69);
+    box-shadow: -2px -4px 13px 1px rgba(50, 48, 47, 0.76), inset 0 1px 1px rgba(255, 255, 255, 0.69);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#30487a), to(#3e5f9e));
+    background-image: -o-linear-gradient(bottom, #30487a 0%, #3e5f9e 100%);
+    background-image: linear-gradient(to top, #30487a 0%, #3e5f9e 100%);
+    grid-area: h;
+}
+.logo {
+    width: 100px;
+}
