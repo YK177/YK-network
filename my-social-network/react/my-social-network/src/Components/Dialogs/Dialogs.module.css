@@ -1,0 +1,58 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 35px 0;
+}
+
+.dialogs_items {
+    border-right: 1px solid #dfe3eb;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.item {
+    padding: 20px;
+    border: 1px solid #dfe3eb;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: #344e86;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    height: 100%;
+}
+
+.item:hover {
+    background-color: #66FFFF;
+}
+
+.item_active {
+    background-color: #FFCC66;
+}
+
+.messages {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #dfe3eb;
+}
+
+.message {
+    padding: 20px 50px;
+    border: 1px solid #dfe3eb;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.message_outgoing {
+    background-color: #33FFFF;
+    align-self: flex-end;
+}
+
+.message_incoming {
+    background-color: #00CCFF;
+    align-self: flex-start;
+}
+
+
+
